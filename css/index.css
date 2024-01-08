@@ -1,0 +1,151 @@
+body {
+  background-image: url("../img/bgL.jpg");
+  background-size: 1730px;
+  background-repeat: no-repeat;
+}
+
+
+
+
+/* ------------------ WEB -------------------- */
+@media screen and (min-width: 600px) {
+/* TEKST */
+h1 {
+  font-size: 128px;
+  position: relative;
+  left: 20%;
+  margin-top: 10%;
+  margin-bottom: 0;
+  max-width: 700px;
+  
+}
+h2 {
+  font-size: 128px;
+  position: relative;
+  left: 30%;
+  margin: 0;
+  max-width: 700px;
+  z-index: 2;
+  pointer-events: none;
+
+}
+
+/* BILLEDER */
+img {
+  max-width: 417px;
+}
+
+.silje {
+  position: absolute;
+  top: 55%;
+  left: 60%;
+  /* z-index: -1; */
+}
+.silje a:link {
+  filter: blur(2px);
+}
+.silje a:hover {
+  filter: none;
+}
+
+.projekter {
+  position: absolute;
+  top: 10%;
+  left: 65%;
+}
+.projekter a:link {
+  filter: blur(2px);
+}
+.projekter a:hover {
+  filter: none;
+}
+.kontakt {
+  position: absolute;
+  top: 45%;
+  left: 5%;
+}
+.kontakt a:link {
+  filter: blur(1px);
+}
+.kontakt a:hover {
+  filter: none;
+}
+}
+
+/* ---------------- BURGERMENU ------------------ */
+@media screen and (max-width: 780px) {
+  /* burgermenu */
+}
+
+/* ------------------ MOBIL -------------------- */
+@media screen and (max-width: 600px) {
+
+/* TEKST */
+h1 {
+  font-size: 70px;
+  position: relative;
+  left: 10%;
+  margin-top: 10%;
+  margin-bottom: 0;
+  max-width: 700px;
+  
+}
+h2 {
+  font-size: 60px;
+  position: relative;
+  left: 20%;
+  margin: 0;
+  max-width: 700px;
+  z-index: 2;
+  pointer-events: none;
+
+}
+
+
+/* BILLEDER */
+img {
+  max-width: 280px;
+}
+
+.silje {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  /* z-index: -1; */
+}
+.silje a:link {
+  filter: blur(2px);
+}
+.silje a:hover {
+  filter: none;
+}
+
+.projekter {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+}
+.projekter a:link {
+  filter: blur(2px);
+}
+.projekter a:hover {
+  filter: none;
+}
+.kontakt {
+  position: absolute;
+  top: 90%;
+  left: 15%;
+}
+.kontakt a:link {
+  filter: blur(1px);
+}
+.kontakt a:hover {
+  filter: none;
+}
+
+/* footer */
+footer{
+  display: none;
+
+}
+}

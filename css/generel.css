@@ -1,0 +1,322 @@
+body {
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+main {
+  flex: 1;
+  position: relative;
+}
+
+/* header */
+.menu a:link {
+  color: #9b0823;
+}
+
+.menu a:visited {
+  color: #9b0823;
+}
+
+.menu a:hover {
+  color: #1f232e;
+}
+
+.menu a:active {
+  color: #d9d9d9;
+}
+
+.menu {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  list-style: none;
+  font-family: "default";
+  font-size: 24px;
+  margin-left: 10%;
+  z-index: 10;
+}
+
+
+
+/* TESKT */
+@font-face {
+  font-family: "bold";
+  src: url("../font/THE\ BOLD\ FONT\ -\ FREE\ VERSION\ -\ 2023.woff2");
+}
+
+@font-face {
+  font-family: "everson";
+  src: url("../font/EMLATIN6.woff2");
+}
+
+@font-face {
+  font-family: "default";
+  src: url("../font/DefaultSans-Regular.woff2");
+}
+
+/* FOOTER */
+footer {
+  font-family: "default";
+  font-size: 16px;
+  color: #9b0823;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  height: 20px;
+  width: 100%;
+  /* pointer-events: none; */
+}
+
+/* ------------------ WEB -------------------- */
+@media screen and (min-width: 600px) {
+  /* grid */
+  .grid1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+  .grid1_2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.grid2_1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.grid3_1 {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.gridRow1_1 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+  /* header */
+  #logo {
+    position: relative;
+    margin-top: 2%;
+    margin-left: 4%;
+  }
+
+  .burger {
+    display: none;
+  }
+  .mobil_nav {
+    display: none;
+  }
+
+  /* tekst */
+  h1 {
+    font-family: "bold";
+    font-size: 110px;
+    color: #1f232e;
+  }
+
+  h2 {
+    font-family: "everson";
+    font-size: 90px;
+    color: #1f232e;
+  }
+
+  h3 {
+    font-family: "everson";
+    font-size: 85px;
+    color: #1f232e;
+  }
+
+  h4 {
+    font-family: "bold";
+    font-size: 64px;
+    color: #1f232e;
+  }
+
+  h5 {
+    font-family: "everson";
+    font-size: 64px;
+    font-style: "underline";
+    color: #1f232e;
+  }
+
+  h6 {
+    font-family: "everson";
+    font-size: 40px;
+    color: #9b0823;
+  }
+
+  p {
+    font-family: "default";
+    font-size: 20px;
+    color: #1f232e;
+  }
+}
+/* ---------------- BURGERMENU ------------------ */
+@media screen and (max-width: 850px) {
+  /* header */
+  #logo {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  
+  #logoLille{
+    max-width: 50px;
+  }
+
+  #burgerPos{
+    position: relative;
+    margin-top: 8%;
+    margin-left: 70%;
+  }
+  /* burgermenu */
+  .menu {
+    display: none;
+  }
+
+  .burger {
+    position: relative;
+    display: block;
+    width: 35px;
+    cursor: pointer;
+    z-index: 99;
+
+    appearance: none;
+    background: none;
+    outline: none;
+    border: none;
+  }
+
+  .burger .bar,
+  .burger::after,
+  .burger::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: #9b0823;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  .burger.is-active::before {
+    transform: rotate(-45deg) translate(-8px, 6px);
+  }
+
+  .burger.is-active .bar {
+    opacity: 0;
+  }
+
+  .burger.is-active::after {
+    transform: rotate(45deg) translate(-9px, -8px);
+  }
+
+  .mobil_nav {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: block;
+    z-index: 98;
+    background-color: #1f232e;
+    padding-top: 120px;
+    transition: 0.4s;
+  }
+
+  .mobil_nav.is-active {
+    left: 0;
+  }
+  .mobil_nav a {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto 16px;
+    text-align: center;
+    padding: 12px 16px;
+    background-image: url("../img/grainbg.png");
+
+    color: #1f232e;
+    text-decoration: none;
+  }
+  .mobil_nav a:hover {
+    background-color: #2d3243;
+  }
+
+  /* kontakt */
+  #postIt {
+    display: none;
+    }
+  #kommentar {
+    display: none;
+   }
+}
+
+/* ------------------ MOBIL -------------------- */
+@media screen and (max-width: 600px) {
+  #grid1_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #logo {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  
+  #logoLille{
+    max-width: 50px;
+  }
+
+  #burgerPos{
+    position: relative;
+    margin-top: 8%;
+    margin-left: 70%;
+  }
+
+  /* tekst */
+  h1 {
+    font-family: "bold";
+    font-size: 60px;
+    color: #1f232e;
+  }
+
+  h2 {
+    font-family: "everson";
+    font-size: 50px;
+    color: #1f232e;
+  }
+
+  h3 {
+    font-family: "everson";
+    font-size: 40px;
+    color: #1f232e;
+  }
+
+  h4 {
+    font-family: "bold";
+    font-size: 30px;
+    color: #1f232e;
+  }
+
+  h5 {
+    font-family: "everson";
+    font-size: 30px;
+    font-style: "underline";
+    color: #1f232e;
+  }
+
+  h6 {
+    font-family: "everson";
+    font-size: 20px;
+    color: #9b0823;
+  }
+
+  p {
+    font-family: "default";
+    font-size: 18px;
+    color: #1f232e;
+  }
+}

@@ -1,0 +1,475 @@
+body {
+  background-image: url("../img/grainbg.png");
+}
+
+/* menu til andre temaer */
+a:link {
+  color: #9b0823;
+}
+
+a:visited {
+  color: #9b0823;
+}
+
+a:hover {
+  color: #1f232e;
+}
+
+a:active {
+  color: #d9d9d9;
+}
+
+/* ------------------ WEB -------------------- */
+@media screen and (min-width: 600px) {
+  /* genvej til de andre projekter */
+  #l1 {
+    position: absolute;
+    top: 2.5%;
+    left: 14%;
+    font-size: 32px;
+  }
+  #l2 {
+    position: absolute;
+    top: 2.5%;
+    left: 34.5%;
+    font-size: 32px;
+  }
+  #l3 {
+    position: absolute;
+    top: 2.5%;
+    left: 51%;
+    font-size: 32px;
+  }
+  #l4 {
+    position: absolute;
+    top: 1.5%;
+    left: 66%;
+    font-size: 32px;
+  }
+  #l5 {
+    position: absolute;
+    top: 2%;
+    left: 84%;
+    font-size: 32px;
+  }
+  #svirl {
+    max-width: 90%;
+    position: relative;
+    margin-left: 5%;
+  }
+
+  /* TEKST */
+  h1 {
+    position: relative;
+    margin-top: 3%;
+    margin-bottom: 0;
+    left: 10%;
+    font-size: 95px;
+    max-width: 680px;
+  }
+  h2 {
+    position: relative;
+    margin-top: 0;
+    left: 17%;
+    max-width: 1000px;
+  }
+  h4 {
+    position: relative;
+    margin-top: 10%;
+    left: 10%;
+    max-width: 1000px;
+  }
+  p {
+    font-size: 25px;
+  }
+
+  .linket {
+    position: absolute;
+  }
+
+  .lineLength {
+    max-width: 530px;
+  
+  }
+  .lineLength2 {
+    max-width: 780px;
+  }
+
+  #tekstPos {
+    position: relative;
+    margin-top: -3%;
+    margin-left: 20%;
+  }
+  #tekstPos2 {
+    position: relative;
+    margin-top: 4%;
+    margin-left: 20%;
+  }
+  #tekstPos3 {
+    position: relative;
+    margin-top: 0;
+    margin-left: 24%;
+    text-align: center;
+  }
+  #tekstPos4 {
+    position: relative;
+    margin-top: 2%;
+    margin-left: 8%;
+  }
+
+  .note {
+    font-family: "default";
+    font-size: 20px;
+    color: #9b0823;
+  }
+
+  #notePos {
+    position: absolute;
+    top: 25.5%;
+    left: 37%;
+  }
+  #notePos2 {
+    position: absolute;
+    top: 41%;
+    left: 36%;
+  }
+  #notePos3 {
+    position: absolute;
+    top: 49.5%;
+    left: 80%;
+  }
+  #notePos4 {
+    position: absolute;
+    top: 73.5%;
+    left: 2%;
+  }
+  #notePos5 {
+    max-width: 70px;
+    position: absolute;
+    top: 89%;
+    left: 2%;
+  }
+  #notePos6 {
+    position: absolute;
+    top: 89%;
+    left: 27%;
+  }
+  #notePos7 {
+    position: absolute;
+    top: 98%;
+    left: 42%;
+  }
+  #notePos8 {
+    position: absolute;
+    top: 95%;
+    left: 67%;
+  }
+
+  /* billeder og video */
+  .video {
+    max-width: 690px;
+  }
+  .foto {
+    max-width: 680px;
+    max-height: 450px;
+    margin-bottom: 10%;
+  }
+
+  #proto {
+    position: relative;
+    margin-top: 7%;
+    margin-left: 0;
+  }
+  #moodboard {
+    max-width: 880px;
+    margin-top: 5%;
+    margin-left: 20%;
+  }
+  #prototype{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 20%;
+  }
+  #grid{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-bottom: 10%;
+  }
+  #target{
+    position: relative;
+    margin-top: 20%;
+    
+    margin-bottom: 10%;
+  }
+
+  #pil {
+    position: absolute;
+    top: 24%;
+    left: 45%;
+  }
+  #pil2 {
+    position: absolute;
+    top: 42%;
+    left: 45%;
+    rotate: 30deg;
+  }
+  #pil3 {
+    position: absolute;
+    top: 48%;
+    left: 80%;
+    rotate: -90deg;
+  }
+  #pil4 {
+    position: absolute;
+    top: 75%;
+    left: 6%;
+  }
+  #pil5 {
+    position: absolute;
+    top: 89%;
+    left: 8%;
+  }
+  #pil6 {
+    position: absolute;
+    top: 89.5%;
+    left: 30%;
+  }
+  #pil7 {
+    max-width: 35px;
+    position: absolute;
+    top: 98%;
+    left: 45%;
+  }
+  #pil8 {
+    max-width: 40px;
+    position: absolute;
+    top: 95%;
+    left: 79%;
+  }
+}
+/* ------------------ MOBIL -------------------- */
+@media screen and (max-width: 600px) {
+  /* genvej til de andre projekter */
+  #l1 {
+    font-size: 20px;
+  }
+  #l2 {
+    font-size: 20px;
+  }
+  #l3 {
+    font-size: 20px;
+  }
+  #l4 {
+    font-size: 20px;
+  }
+  #l5 {
+    font-size: 20px;
+  }
+  #svirl {
+    display: none;
+  }
+  #projektNav {
+    position: relative;
+    margin-top: 8%;
+    text-align: center;
+  }
+
+  /* TEKST */
+  h1 {
+    position: relative;
+    margin-top: 8%;
+    margin-bottom: 0;
+    left: 8%;
+    font-size: 55px;
+    max-width: 400px;
+  }
+  h2 {
+    position: relative;
+    margin-top: 0;
+    left: 15%;
+    font-size: 34px;
+    max-width: 340px;
+  }
+  h4 {
+    position: relative;
+    margin-top: 20%;
+    left: 10%;
+    max-width: 340px;
+  }
+
+  .lineLength {
+    max-width: 380px;
+    text-align: center;
+  }
+  .lineLength2 {
+    max-width: 380px;
+    text-align: center;
+  }
+  
+
+  #tekstPos {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 7%;
+  }
+  #tekstPos2 {
+    position: relative;
+    margin-top: 15%;
+    margin-left: 7%;
+  }
+  #tekstPos3 {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 7%;
+  }
+  #tekstPos4 {
+    position: relative;
+    margin-top: 8%;
+    margin-left: 7%;
+  }
+
+  .note {
+    font-family: "default";
+    font-size: 14px;
+    color: #9b0823;
+  }
+
+  #notePos {
+   display: none;
+  }
+  #notePos2 {
+    position: absolute;
+    top: 38.5%;
+    left: 0;
+  }
+  #notePos3 {
+    position: absolute;
+    top: 58%;
+    left: 30%;
+  }
+  #notePos4 {
+    position: absolute;
+    top: 77.6%;
+    left: 8%;
+  }
+  #notePos5 {
+    display: none;
+  }
+  #notePos6 {
+    position: absolute;
+    top: 95%;
+    left: 20%;
+  }
+  #notePos7 {
+    position: absolute;
+    top: 96%;
+    left: 68%;
+  }
+  #notePos8 {
+    position: absolute;
+    top: 96.5%;
+    left: 45%;
+   
+  }
+
+  /* billeder og video */
+  .video {
+    max-width: 380px;
+  }
+  .foto {
+    max-width: 380px;
+    max-height: 450px;
+  }
+
+  #mood{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 7%;
+  }
+  #forside{
+    display: none;
+  }
+
+  #proto {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 25%;
+  }
+  #moodboard {
+    max-width: 380px;
+    margin-top: 5%;
+    margin-left: 7%;
+  }
+  #prototype{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 7%;
+    margin-bottom: 10%;
+  }
+  #grid{
+    max-width: 380px;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 7%;
+    margin-bottom: 10%;
+  }
+  #target{
+    position: relative;
+    margin-top: 7%;
+    margin-left: 7%;
+    margin-bottom: 10%;
+  }
+
+  #pil {
+  display: none;
+  }
+  #pil2 {
+    max-width: 35px;
+    position: absolute;
+    top: 40%;
+    left: 17%;
+    rotate: 90deg;
+  }
+  #pil3 {
+    max-width: 35px;
+    position: absolute;
+    top: 57.5%;
+    left: 68%;
+    rotate: -40deg;
+  }
+  #pil4 {
+    max-width: 35px;
+    position: absolute;
+    top: 77%;
+    left: 66%;
+    rotate: -95deg;
+  }
+  #pil5 {
+   display: none;
+  }
+  #pil6 {
+    position: absolute;
+    top: 95%;
+    left: 10%;
+    rotate: 200deg;
+  }
+  #pil7 {
+    max-width: 35px;
+    position: absolute;
+    top: 95.5%;
+    left: 75%;
+  }
+  #pil8 {
+    max-width: 35px;
+    position: absolute;
+    top: 96.8%;
+    left: 35%;
+    rotate: 180deg;
+  }
+
+  /* footer */
+  footer {
+    display: none;
+  }
+}

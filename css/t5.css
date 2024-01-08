@@ -1,0 +1,451 @@
+body {
+  background-image: url("../img/grainbg.png");
+}
+
+/* menu til andre temaer */
+a:link {
+  color: #9b0823;
+}
+
+a:visited {
+  color: #9b0823;
+}
+
+a:hover {
+  color: #1f232e;
+}
+
+a:active {
+  color: #d9d9d9;
+}
+
+/* ------------------ WEB -------------------- */
+@media screen and (min-width: 600px) {
+  /* genvej til de andre projekter */
+  #l1 {
+    position: absolute;
+    top: 2.5%;
+    left: 14%;
+    font-size: 32px;
+  }
+  #l2 {
+    position: absolute;
+    top: 2.5%;
+    left: 34%;
+    font-size: 32px;
+  }
+  #l3 {
+    position: absolute;
+    top: 3%;
+    left: 51%;
+    font-size: 32px;
+  }
+  #l4 {
+    position: absolute;
+    top: 1.5%;
+    left: 66%;
+    font-size: 32px;
+  }
+  #l5 {
+    position: absolute;
+    top: 2.5%;
+    left: 84%;
+    font-size: 32px;
+  }
+  #svirl {
+    max-width: 90%;
+    position: relative;
+    margin-left: 5%;
+  }
+
+  /* TEKST */
+  h1 {
+    position: relative;
+    margin-top: 3%;
+    margin-bottom: 0;
+    left: 10%;
+    font-size: 95px;
+    max-width: 680px;
+  }
+  h2 {
+    position: relative;
+    margin-top: 0;
+    left: 17%;
+    max-width: 680px;
+  }
+  h4 {
+    position: relative;
+    margin-top: 10%;
+    left: 10%;
+    max-width: 1000px;
+  }
+  p {
+    font-size: 25px;
+  }
+
+  .linket {
+    position: absolute;
+    top: 0;
+  }
+
+  .lineLength {
+    max-width: 400px;
+   line-height: 2em;
+  }
+  .lineLength1 {
+    max-width: 800px;
+    line-height: 2em;
+   
+  }
+
+  #tekstPos {
+    position: relative;
+    margin-top: 0;
+    margin-left: 30%;
+  }
+  #tekstPos2 {
+    position: relative;
+    margin-top: -5%;
+    margin-left: 25%;
+  }
+  #tekstPos3 {
+    position: relative;
+    margin-top: 0;
+    margin-left: 24%;
+    text-align: center;
+  }
+
+  .note {
+    font-family: "default";
+    font-size: 20px;
+    color: #9b0823;
+  }
+
+  #notePos {
+    position: absolute;
+    top: 31.5%;
+    left: 64%;
+  }
+
+  #notePos2 {
+    position: absolute;
+    top: 42.5%;
+    left: 47%;
+  }
+  #notePos3 {
+    position: absolute;
+    top: 64.5%;
+    left: 45%;
+  }
+  #notePos4 {
+    position: absolute;
+    top: 84%;
+    left: 6%;
+  }
+
+  /* ------------ billeder og video ------------- */
+  #blomst {
+    max-width: 340px;
+    position: absolute;
+    top: 7%;
+    left: 60%;
+    rotate: 20deg;
+  }
+
+  #pil {
+    position: absolute;
+    top: 30%;
+    left: 75%;
+  }
+  #pil2 {
+    position: absolute;
+    top: 44%;
+    left: 53%;
+    rotate: 47deg;
+  }
+  #pil3 {
+    position: absolute;
+    top: 63%;
+    left: 53%;
+    rotate: -47deg;
+  }
+  #pil4 {
+    position: absolute;
+    top: 85.5%;
+    left: 15%;
+  }
+
+  .video {
+    max-width: 640px;
+  }
+  #videoPos {
+    position: relative;
+    margin-top: 15%;
+    margin-left: 10%;
+    max-width: 790px;
+  }
+  #videoPos2 {
+    position: relative;
+    margin-top: 0%;
+    margin-left: 15%;
+  }
+  #videoPos3 {
+    position: relative;
+    margin-top: 10%;
+    margin-left: 15%;
+  }
+  #videoPos4 {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 21%;
+    margin-bottom: 5%;
+    max-width: 890px;
+  }
+  /* link */
+  .linket {
+    position: absolute;
+    top: 9%;
+    left: 83%;
+    rotate: 55deg;
+  }
+  .nål {
+    max-width: 120px;
+  }
+  .linkNote {
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    top: 36%;
+    left: -14%;
+    rotate: -60deg;
+  }
+  #linket {
+    position: absolute;
+    top: 12%;
+    left: 80%;
+    rotate: 55deg;
+  }
+  #nål {
+    max-width: 120px;
+  }
+  #linkNote {
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    top: 36%;
+    left: -14%;
+    rotate: -60deg;
+  }
+}
+/* ------------------ MOBIL -------------------- */
+@media screen and (max-width: 600px) {
+  /* genvej til de andre projekter */
+  #l1 {
+    font-size: 20px;
+  }
+  #l2 {
+    font-size: 20px;
+  }
+  #l3 {
+    font-size: 20px;
+  }
+  #l4 {
+    font-size: 20px;
+  }
+  #l5 {
+    font-size: 20px;
+  }
+  #svirl {
+    display: none;
+  }
+  #projektNav {
+    position: relative;
+    margin-top: 8%;
+    text-align: center;
+  }
+
+  /* TEKST */
+  h1 {
+    position: relative;
+    margin-top: 8%;
+    margin-bottom: 0;
+    left: 8%;
+    font-size: 55px;
+    max-width: 400px;
+  }
+  h2 {
+    position: relative;
+    margin-top: 0;
+    left: 15%;
+    font-size: 34px;
+    max-width: 340px;
+  }
+  h4 {
+    position: relative;
+    margin-top: 20%;
+    left: 10%;
+    max-width: 340px;
+  }
+
+  .lineLength {
+    max-width: 380px;
+    text-align: center;
+  }
+  .lineLength1 {
+    max-width: 380px;
+    text-align: center;
+  }
+
+  .linket {
+    position: absolute;
+    top: 0;
+  }
+
+  #tekstPos {
+    position: relative;
+    margin-top: 0;
+    margin-left: 7%;
+    margin-bottom: 10%;
+  }
+  #tekstPos2 {
+    position: relative;
+    margin-top: 7%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+  }
+  #tekstPos3 {
+    position: relative;
+    margin-top: 0;
+    margin-left: 16%;
+    margin-bottom: 10%;
+    max-width: 320px;
+  }
+
+  .note {
+    font-family: "default";
+    font-size: 14px;
+    color: #9b0823;
+  }
+
+  #notePos {
+    position: absolute;
+    top: 29.5%;
+    left: 40%;
+  }
+
+  #notePos2 {
+    position: absolute;
+    top: 33%;
+    left: 47%;
+  }
+  #notePos3 {
+    position: absolute;
+    top: 54.6%;
+    left: 24%;
+  }
+  #notePos4 {
+    position: absolute;
+    top: 86.8%;
+    left: 6%;
+  }
+
+  /* ------------ billeder og video ------------- */
+  #blomst {
+  display: none;
+  }
+
+  #pil {
+    max-width: 20px;
+    position: absolute;
+    top: 29%;
+    left: 71%;
+  }
+  #pil2 {
+    max-width: 20px;
+    position: absolute;
+    top: 33.8%;
+    left: 86%;
+  }
+  #pil3 {
+    max-width: 25px;
+    position: absolute;
+    top: 54%;
+    left: 73%;
+    rotate: -47deg;
+  }
+  #pil4 {
+    max-width: 20px;
+    position: absolute;
+    top: 88%;
+    left: 15%;
+  }
+
+  .video {
+    max-width: 380px;
+  }
+  #videoPos {
+    position: relative;
+    margin-top: 0;
+    margin-left: 8%;
+    max-width: 380px;
+  }
+  #videoPos2 {
+    position: relative;
+    margin-top: 10%;
+    margin-left: 8%;
+  }
+  #videoPos3 {
+    position: relative;
+    margin-top: 7%;
+    margin-left: 8%;
+    margin-bottom: 15%;
+  }
+  #videoPos4 {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 8%;
+    margin-bottom: 10%;
+    max-width: 380px;
+  }
+
+  /* link */
+  .linket {
+    position: absolute;
+    top: 2%;
+    left: 71%;
+    rotate: 55deg;
+  }
+  .nål {
+    max-width: 70px;
+  }
+  .linkNote {
+    font-size: 10px;
+    text-align: center;
+    position: absolute;
+    top: 36%;
+    left: -14%;
+    rotate: -60deg;
+  }
+  #linket {
+    position: absolute;
+    top: 6%;
+    left: 75%;
+    rotate: 55deg;
+  }
+  #nål {
+    max-width: 70px;
+  }
+  #linkNote {
+    font-size: 10px;
+    text-align: center;
+    position: absolute;
+    top: 36%;
+    left: -14%;
+    rotate: -60deg;
+  }
+
+  /* footer */
+  footer {
+    display: none;
+  }
+}

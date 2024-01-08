@@ -1,0 +1,448 @@
+body {
+  background-image: url("../img/grainbg.png");
+}
+
+/* menu til andre temaer */
+a:link {
+  color: #9b0823;
+}
+
+a:visited {
+  color: #9b0823;
+}
+
+a:hover {
+  color: #1f232e;
+}
+
+a:active {
+  color: #d9d9d9;
+}
+
+.linket {
+  position: absolute;
+  top: 0;
+}
+
+/* ------------------ WEB -------------------- */
+@media screen and (min-width: 600px) {
+  #l1 {
+    position: absolute;
+    top: 3%;
+    left: 14%;
+    font-size: 32px;
+  }
+  #l2 {
+    position: absolute;
+    top: 2.5%;
+    left: 34%;
+    font-size: 32px;
+  }
+  #l3 {
+    position: absolute;
+    top: 3%;
+    left: 51%;
+    font-size: 32px;
+  }
+  #l4 {
+    position: absolute;
+    top: 1.5%;
+    left: 66%;
+    font-size: 32px;
+  }
+  #l5 {
+    position: absolute;
+    top: 2.5%;
+    left: 84%;
+    font-size: 32px;
+  }
+  #svirl {
+    max-width: 90%;
+    position: relative;
+    margin-left: 5%;
+  }
+
+  /* TEKST */
+  h1 {
+    position: relative;
+    margin-top: 3%;
+    margin-bottom: 0;
+    left: 10%;
+    font-size: 95px;
+    max-width: 680px;
+  }
+  h2 {
+    position: relative;
+    margin-top: 0;
+    left: 17%;
+    max-width: 680px;
+  }
+  h4 {
+    position: relative;
+    left: 10%;
+    max-width: 1000px;
+  }
+  p {
+    font-size: 25px;
+  }
+
+  .lineLength {
+    max-width: 680px;
+  }
+  .lineLength1 {
+    max-width: 300px;
+  }
+
+  #tekstPos {
+    position: relative;
+    margin-top: 0;
+    margin-left: 10%;
+    line-height: 2em;
+  }
+  #tekstPos2 {
+    position: relative;
+    margin-top: 15%;
+    margin-left: 5%;
+    line-height: 2em;
+  }
+  #tekstPos3 {
+    position: relative;
+    margin-top: 8%;
+    margin-left: 46%;
+    line-height: 2em;
+    text-align: right;
+  }
+
+  .note {
+    font-family: "default";
+    font-size: 20px;
+    color: #9b0823;
+  }
+
+  #notePos {
+    position: absolute;
+    top: 27%;
+    left: 60%;
+  }
+
+  #notePos2 {
+    position: absolute;
+    top: 63%;
+    left: 74%;
+  }
+  #notePos3 {
+    position: absolute;
+    top: 85%;
+    left: 15%;
+  }
+  #notePos4 {
+    position: absolute;
+    top: 85%;
+    left: 74%;
+  }
+
+  /* ------------ billeder og video ------------- */
+  #gulerod {
+    position: absolute;
+    top: 18%;
+    left: 60%;
+    rotate: -20deg;
+    z-index: -1;
+  }
+  #rotte {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+  }
+  #smiley {
+    position: relative;
+    margin-top: 90%;
+    margin-left: 10%;
+  }
+  #chips {
+    position: absolute;
+    top: -7%;
+    left: -55%;
+  }
+
+  #pil {
+    position: absolute;
+    top: 30%;
+    left: 64%;
+  }
+  #pil2 {
+    position: absolute;
+    top: 61%;
+    left: 75%;
+  }
+  #pil3 {
+    position: absolute;
+    top: 85.5%;
+    left: 10%;
+  }
+  #pil4 {
+    position: absolute;
+    top: 85.5%;
+    left: 84%;
+  }
+
+  .foto {
+    max-width: 780px;
+    max-height: 450px;
+  }
+
+  #fotoPos {
+    position: relative;
+    margin-top: 10%;
+    margin-left: 15%;
+  }
+  #fotoPos2 {
+    position: relative;
+    margin-top: 0;
+    margin-left: 15%;
+  }
+
+  .video {
+    max-width: 590px;
+    max-height: 450px;
+  }
+
+  #videoPos {
+    position: relative;
+    margin-top: 15%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+  }
+  #videoPos2 {
+    position: relative;
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+  }
+  /* link */
+  .linket {
+    position: absolute;
+    top: 8%;
+    left: 75%;
+    rotate: 65deg;
+  }
+  .nål {
+    max-width: 120px;
+  }
+  .linkNote {
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    top: 36%;
+    left: -14%;
+    rotate: -60deg;
+  }
+}
+
+/* ------------------ MOBIL -------------------- */
+@media screen and (max-width: 600px) {
+  /* genvej til de andre projekter */
+  #l1 {
+    font-size: 20px;
+  }
+  #l2 {
+    font-size: 20px;
+  }
+  #l3 {
+    font-size: 20px;
+  }
+  #l4 {
+    font-size: 20px;
+  }
+  #l5 {
+    font-size: 20px;
+  }
+  #svirl {
+    display: none;
+  }
+  #projektNav {
+    position: relative;
+    margin-top: 8%;
+    text-align: center;
+  }
+
+  /* TEKST */
+  h1 {
+    position: relative;
+    margin-top: 8%;
+    margin-bottom: 0;
+    left: 8%;
+    font-size: 55px;
+    max-width: 400px;
+  }
+  h2 {
+    position: relative;
+    margin-top: 0;
+    left: 15%;
+    font-size: 34px;
+    max-width: 340px;
+  }
+  h4 {
+    position: relative;
+    margin-top: 20%;
+    left: 10%;
+    max-width: 340px;
+  }
+
+  .lineLength {
+    max-width: 380px;
+    text-align: center;
+  }
+  .lineLength1 {
+    max-width: 380px;
+    text-align: center;
+  }
+
+  #tekstPos {
+    position: relative;
+    margin-top: 0;
+    margin-left: 7%;
+  }
+  #tekstPos2 {
+    position: relative;
+    margin-top: 20%;
+    margin-left: 7%;
+  }
+  #tekstPos3 {
+    position: relative;
+    margin-top: 18%;
+    margin-left: 7%;
+  }
+
+  .note {
+    font-family: "default";
+    font-size: 14px;
+    color: #9b0823;
+  }
+
+  #notePos {
+    position: absolute;
+    top: 32.5%;
+    left: 35%;
+    z-index: 1;
+  }
+
+  #notePos2 {
+    position: absolute;
+    top: 63.5%;
+    left: 45%;
+  }
+  #notePos3 {
+    position: absolute;
+    top: 74%;
+    left: 22%;
+  }
+  #notePos4 {
+    position: absolute;
+    top: 98%;
+    left: 22%;
+  }
+
+  /* ------------ billeder og video ------------- */
+  #gulerod {
+   display: none;
+  }
+  #rotte {
+    max-width: 105px;
+    position: absolute;
+    top: 49%;
+    left: 56%;
+    rotate: -10deg;
+  }
+  #smiley {
+    display: none;
+  }
+  #chips {
+    display: none;
+  }
+
+  #pil {
+    max-width: 20px;
+    position: absolute;
+    top: 31.2%;
+    left: 55%;
+    rotate: 180deg;
+  }
+  #pil2 {
+    max-width: 20px;
+    position: absolute;
+    top: 62.5%;
+    left: 70%;
+  }
+  #pil3 {
+    max-width: 25px;
+    position: absolute;
+    top: 75%;
+    left: 15%;
+  }
+  #pil4 {
+    max-width: 25px;
+    position: absolute;
+    top: 98.5%;
+    left: 15%;
+    rotate: 180deg;
+  }
+
+  .foto {
+    max-width: 380px;
+    max-height: 450px;
+  }
+
+  #fotoPos {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+  #fotoPos2 {
+    max-width: 380px;
+    position: relative;
+    margin-top: 0;
+    margin-left: 10%;
+  }
+
+  .video {
+    max-width: 380px;
+    max-height: 450px;
+  }
+
+  #videoPos {
+    position: relative;
+    margin-top: 15%;
+    margin-left: 10%;
+  }
+  #videoPos2 {
+    position: relative;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+  }
+
+  /* link */
+  .linket {
+    position: absolute;
+    top: 3%;
+    left: 71%;
+    rotate: 75deg;
+  }
+  .nål {
+    max-width: 70px;
+  }
+  .linkNote {
+    font-size: 10px;
+    text-align: center;
+    position: absolute;
+    top: 36%;
+    left: -14%;
+    rotate: -60deg;
+  }
+
+  /* footer */
+  footer {
+    display: none;
+  }
+}

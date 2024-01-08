@@ -1,0 +1,60 @@
+body {
+  background-image: url("../img/grainbg.png");
+}
+
+.tema {
+  text-align: center;
+}
+
+/* ------------------ WEB -------------------- */
+@media screen and (min-width: 600px) {
+  /* TEKST */
+  h1 {
+    position: relative;
+    margin-top: 5%;
+    left: 5%;
+  }
+
+  /* billder */
+  #blomst {
+    position: absolute;
+    top: 18%;
+    left: 80%;
+  }
+  #blomst2 {
+    position: absolute;
+    top: 75.5%;
+    left: 12%;
+  }
+}
+/* ------------------ MOBIL -------------------- */
+@media screen and (max-width: 600px) {
+  /* TEKST */
+  h1 {
+    position: relative;
+    margin-top: 5%;
+    left: 5%;
+    pointer-events: none;
+  }
+  /* billder */
+  #blomst {
+    position: absolute;
+    top: 6.5%;
+    left: 72%;
+    pointer-events: none;
+  }
+  #blomst2 {
+    position: absolute;
+    top: 83%;
+    left: 2%;
+  }
+
+  .streg {
+    max-width: 100%;
+  }
+
+  /* footer */
+  footer {
+    display: none;
+  }
+}
