@@ -40,7 +40,7 @@ a:active {
   }
   #l3 {
     position: absolute;
-    top: 3%;
+    top: 2.5%;
     left: 51%;
     font-size: 32px;
   }
@@ -52,7 +52,7 @@ a:active {
   }
   #l5 {
     position: absolute;
-    top: 2.5%;
+    top: 2.3%;
     left: 84%;
     font-size: 32px;
   }
@@ -121,7 +121,7 @@ a:active {
 
   #notePos {
     position: absolute;
-    top: 27%;
+    top: 28%;
     left: 60%;
   }
 
@@ -193,7 +193,7 @@ a:active {
 
   #fotoPos {
     position: relative;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 15%;
   }
   #fotoPos2 {
@@ -322,7 +322,7 @@ a:active {
 
   #notePos {
     position: absolute;
-    top: 32.5%;
+    top: 34%;
     left: 35%;
     z-index: 1;
   }
@@ -334,7 +334,7 @@ a:active {
   }
   #notePos3 {
     position: absolute;
-    top: 74%;
+    top: 75%;
     left: 22%;
   }
   #notePos4 {
@@ -364,20 +364,20 @@ a:active {
   #pil {
     max-width: 20px;
     position: absolute;
-    top: 31.2%;
+    top: 32.5%;
     left: 55%;
     rotate: 180deg;
   }
   #pil2 {
     max-width: 20px;
     position: absolute;
-    top: 62.5%;
+    top: 63%;
     left: 70%;
   }
   #pil3 {
     max-width: 25px;
     position: absolute;
-    top: 75%;
+    top: 76%;
     left: 15%;
   }
   #pil4 {

@@ -24,31 +24,31 @@ a:active {
   /* genvej til de andre projekter */
   #l1 {
     position: absolute;
-    top: 2.5%;
+    top: 2%;
     left: 14%;
     font-size: 32px;
   }
   #l2 {
     position: absolute;
-    top: 2.5%;
+    top: 2%;
     left: 34%;
     font-size: 32px;
   }
   #l3 {
     position: absolute;
-    top: 3%;
+    top: 2%;
     left: 51%;
     font-size: 32px;
   }
   #l4 {
     position: absolute;
-    top: 1.5%;
+    top: 1.2%;
     left: 66%;
     font-size: 32px;
   }
   #l5 {
     position: absolute;
-    top: 2.5%;
+    top: 2%;
     left: 84%;
     font-size: 32px;
   }
@@ -75,7 +75,6 @@ a:active {
   }
   h4 {
     position: relative;
-    margin-top: 10%;
     left: 10%;
     max-width: 1000px;
   }
@@ -123,23 +122,23 @@ a:active {
 
   #notePos {
     position: absolute;
-    top: 31.5%;
-    left: 64%;
+    top: 21.5%;
+    left: 59%;
   }
 
   #notePos2 {
     position: absolute;
-    top: 42.5%;
+    top: 39.5%;
     left: 47%;
   }
   #notePos3 {
     position: absolute;
-    top: 64.5%;
-    left: 45%;
+    top: 59.5%;
+    left: 38%;
   }
   #notePos4 {
     position: absolute;
-    top: 84%;
+    top: 85%;
     left: 6%;
   }
 
@@ -147,31 +146,32 @@ a:active {
   #blomst {
     max-width: 340px;
     position: absolute;
-    top: 7%;
-    left: 60%;
+    top: 12%;
+    left: 40%;
     rotate: 20deg;
   }
 
   #pil {
     position: absolute;
-    top: 30%;
-    left: 75%;
+    top: 23%;
+    left: 55%;
+    rotate: 290deg;
   }
   #pil2 {
     position: absolute;
-    top: 44%;
+    top: 41%;
     left: 53%;
     rotate: 47deg;
   }
   #pil3 {
     position: absolute;
-    top: 63%;
+    top: 58%;
     left: 53%;
     rotate: -47deg;
   }
   #pil4 {
     position: absolute;
-    top: 85.5%;
+    top: 86.5%;
     left: 15%;
   }
 
@@ -180,7 +180,7 @@ a:active {
   }
   #videoPos {
     position: relative;
-    margin-top: 15%;
+    margin-top: 43%;
     margin-left: 10%;
     max-width: 790px;
   }
@@ -204,8 +204,8 @@ a:active {
   /* link */
   .linket {
     position: absolute;
-    top: 9%;
-    left: 83%;
+    top: 5%;
+    left: 70%;
     rotate: 55deg;
   }
   .nål {
@@ -221,8 +221,8 @@ a:active {
   }
   #linket {
     position: absolute;
-    top: 12%;
-    left: 80%;
+    top: 8%;
+    left: 77%;
     rotate: 55deg;
   }
   #nål {
@@ -329,23 +329,23 @@ a:active {
 
   #notePos {
     position: absolute;
-    top: 29.5%;
+    top: 28.5%;
     left: 40%;
   }
 
   #notePos2 {
     position: absolute;
-    top: 33%;
+    top: 31.8%;
     left: 47%;
   }
   #notePos3 {
     position: absolute;
-    top: 54.6%;
+    top: 52.6%;
     left: 24%;
   }
   #notePos4 {
     position: absolute;
-    top: 86.8%;
+    top: 87.3%;
     left: 6%;
   }
 
@@ -357,26 +357,26 @@ a:active {
   #pil {
     max-width: 20px;
     position: absolute;
-    top: 29%;
+    top: 28%;
     left: 71%;
   }
   #pil2 {
     max-width: 20px;
     position: absolute;
-    top: 33.8%;
+    top: 32.5%;
     left: 86%;
   }
   #pil3 {
     max-width: 25px;
     position: absolute;
-    top: 54%;
+    top: 52%;
     left: 73%;
     rotate: -47deg;
   }
   #pil4 {
     max-width: 20px;
     position: absolute;
-    top: 88%;
+    top: 88.5%;
     left: 15%;
   }
 

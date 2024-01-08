@@ -5,7 +5,12 @@ body {
 .tema {
   text-align: center;
 }
-
+#tema a:link{
+  color: #9B0823;
+}
+#tema a:hover{
+  color: #1F232E;
+}
 /* ------------------ WEB -------------------- */
 @media screen and (min-width: 600px) {
   /* TEKST */

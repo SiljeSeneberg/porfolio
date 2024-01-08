@@ -23,31 +23,31 @@ a:active {
 @media screen and (min-width: 600px) {
   #l1 {
     position: absolute;
-    top: 4%;
+    top: 3.5%;
     left: 14%;
     font-size: 32px;
   }
   #l2 {
     position: absolute;
-    top: 4%;
+    top: 3.5%;
     left: 34%;
     font-size: 32px;
   }
   #l3 {
     position: absolute;
-    top: 4%;
+    top: 3.5%;
     left: 51%;
     font-size: 32px;
   }
   #l4 {
     position: absolute;
-    top: 2.5%;
+    top: 2%;
     left: 66%;
     font-size: 32px;
   }
   #l5 {
     position: absolute;
-    top: 3.5%;
+    top: 3%;
     left: 84%;
     font-size: 32px;
   }
@@ -105,7 +105,7 @@ a:active {
   }
   #tekstPos2 {
     position: relative;
-    margin-top: -5%;
+    margin-top: -10%;
     margin-left: 10%;
     margin-bottom: 10%;
     line-height: 2em;
@@ -118,12 +118,12 @@ a:active {
   }
   #notePos2 {
     position: absolute;
-    top: 82.5%;
+    top: 75.5%;
     left: 46%;
   }
   #notePos3 {
     position: absolute;
-    top: 63%;
+    top: 60%;
     left: 75%;
   }
 
@@ -139,12 +139,12 @@ a:active {
   }
   #pil2 {
     position: absolute;
-    top: 80%;
+    top: 73.5%;
     left: 48%;
   }
   #pil3 {
     position: absolute;
-    top: 64.5%;
+    top: 61%;
     left: 72%;
   }
 
@@ -256,12 +256,12 @@ a:active {
 
   #notePos {
     position: absolute;
-    top: 25%;
+    top: 24%;
     left: 62.5%;
   }
   #notePos2 {
     position: absolute;
-    top: 61%;
+    top: 58%;
     left: 35%;
   }
   #notePos3 {
@@ -281,14 +281,14 @@ a:active {
   #pil {
     max-width: 20px;
     position: absolute;
-    top: 26%;
+    top: 25%;
     left: 80%;
     rotate: -45deg;
   }
   #pil2 {
     max-width: 20px;
     position: absolute;
-    top: 60%;
+    top: 57%;
     left: 50%;
   }
   #pil3 {

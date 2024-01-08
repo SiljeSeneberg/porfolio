@@ -91,12 +91,12 @@ a:active {
 
   #pil {
     position: absolute;
-    top: 44%;
+    top: 42%;
     left: 22%;
   }
   #pil2 {
     position: absolute;
-    top: 53%;
+    top: 52%;
     left: 66%;
   }
   #pil3 {
@@ -138,12 +138,12 @@ a:active {
 
   #notePos {
     position: absolute;
-    top: 44.5%;
+    top: 42.5%;
     left: 8%;
   }
   #notePos2 {
     position: absolute;
-    top: 52%;
+    top: 51%;
     left: 70%;
   }
   #notePos3 {
@@ -262,7 +262,7 @@ a:active {
   #pil3 {
     width: 25px;
     position: absolute;
-    top: 71.5%;
+    top: 71%;
     left: 74%;
     rotate: 180deg;
   }

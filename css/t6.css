@@ -125,13 +125,13 @@ a:active {
 
   #notePos {
     position: absolute;
-    top: 25.5%;
+    top: 23%;
     left: 37%;
   }
   #notePos2 {
     position: absolute;
-    top: 41%;
-    left: 36%;
+    top: 39.3%;
+    left: 35%;
   }
   #notePos3 {
     position: absolute;
@@ -140,7 +140,7 @@ a:active {
   }
   #notePos4 {
     position: absolute;
-    top: 73.5%;
+    top: 74%;
     left: 2%;
   }
   #notePos5 {
@@ -205,12 +205,12 @@ a:active {
 
   #pil {
     position: absolute;
-    top: 24%;
+    top: 21.5%;
     left: 45%;
   }
   #pil2 {
     position: absolute;
-    top: 42%;
+    top: 40%;
     left: 45%;
     rotate: 30deg;
   }
@@ -222,7 +222,7 @@ a:active {
   }
   #pil4 {
     position: absolute;
-    top: 75%;
+    top: 75.5%;
     left: 6%;
   }
   #pil5 {
@@ -345,12 +345,12 @@ a:active {
   }
   #notePos3 {
     position: absolute;
-    top: 58%;
+    top: 55%;
     left: 30%;
   }
   #notePos4 {
     position: absolute;
-    top: 77.6%;
+    top: 79%;
     left: 8%;
   }
   #notePos5 {
@@ -434,14 +434,14 @@ a:active {
   #pil3 {
     max-width: 35px;
     position: absolute;
-    top: 57.5%;
+    top: 54.5%;
     left: 68%;
     rotate: -40deg;
   }
   #pil4 {
-    max-width: 35px;
+    max-width: 30px;
     position: absolute;
-    top: 77%;
+    top: 78.5%;
     left: 66%;
     rotate: -95deg;
   }
@@ -457,7 +457,7 @@ a:active {
   #pil7 {
     max-width: 35px;
     position: absolute;
-    top: 95.5%;
+    top: 95.8%;
     left: 75%;
   }
   #pil8 {
