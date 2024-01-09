@@ -14,8 +14,8 @@ body {
   .tekstOm {
     max-width: 500px;
     position: relative;
-    top: 30%;
     left: 10%;
+    line-height: 2em;
   }
 
   h4 {
@@ -23,11 +23,17 @@ body {
     left: 5%;
     margin-top: 0;
   }
+  h6{
+    position: relative;
+    margin-top: -5%;
+    left: 10%;
+    margin-bottom: 0;
+  }
   /* Billeder */
   #storPil {
     position: relative;
-    top: 40%;
-    left: 20%;
+    top: 20%;
+    left: 15%;
     max-width: 210px;
   }
 
@@ -72,7 +78,7 @@ body {
   /* TEKST */
   h1 {
     position: relative;
-    margin-top: 10%;
+    margin-top: 5%;
     left: 15%;
   }
 
@@ -81,13 +87,21 @@ body {
     text-align: center;
     position: relative;
     margin-left: 12%;
-    top: 108%;
+    top: 5%;
   }
 
   h4 {
     position: relative;
     left: 5%;
     margin-top: 0;
+  }
+
+  h6{
+    font-size: 35px;
+    position: relative;
+    margin-top: 75%;
+    left: 40%;
+    margin-bottom: 0;
   }
 
   /* grid , OBS her passer navne og mål ikke, det er med vilje */
@@ -128,7 +142,7 @@ body {
   #stærke {
     max-width: 90px;
     position: relative;
-    margin-top: 58%;
+    margin-top: 15%;
     margin-bottom: 0;
     left: 75%;
   }
