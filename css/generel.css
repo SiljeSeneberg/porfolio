@@ -151,6 +151,70 @@ footer {
     font-size: 20px;
     color: #1f232e;
   }
+
+  /* animationer */
+  @keyframes fade_in {
+    from {
+      opacity: 0%;
+    }
+    to {
+      opacity: 100%;
+    }
+  }
+  
+  .fade_in {
+    animation-name: fade_in;
+    animation-duration: 8s;
+    animation-direction: infinite;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes rotation {
+    from {
+      rotate: 0deg;
+    }
+    to {
+      rotate: 360deg;
+    }
+  }
+  
+  .rotation {
+    animation-name: rotation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  @keyframes pulse {
+    from {
+      scale: 1;
+    }
+    to {
+      scale: 0.5;
+    }
+  }
+  .pulse {
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes overshoot {
+    from {
+      translate: -100% 0;
+    }
+    to {
+      translate: 300% 0;
+    }
+  }
+  
+  .overshoot {
+    animation-name: overshoot;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 2);
+  }
 }
 /* ---------------- BURGERMENU ------------------ */
 @media screen and (max-width: 850px) {
