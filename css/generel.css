@@ -39,8 +39,6 @@ main {
   z-index: 10;
 }
 
-
-
 /* TESKT */
 @font-face {
   font-family: "bold";
@@ -74,27 +72,46 @@ footer {
 @media screen and (min-width: 600px) {
   /* grid */
   .grid1_1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
   .grid1_2 {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-}
-.grid2_1 {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-}
-.grid3_1 {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-}
-.gridRow1_1 {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-}
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .grid2_1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .grid3_1 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+  .gridRow1_1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
 
   /* header */
+  header {
+    /* height: 5em; */
+    position: sticky;
+    top: 0;
+    transition: background-color 0.4s ease-in-out;
+    z-index: 20;
+  }
+
+  header.scrolled {
+    background-color: #1f232e;
+    opacity: 0.94;
+  }
+  header nav a{
+    transition: color 0.2s ease-in-out;
+  }
+  header.scrolled a:hover{
+    color: #D9D9D9;
+  }
+
   #logo {
     position: relative;
     margin-top: 2%;
@@ -161,14 +178,14 @@ footer {
       opacity: 100%;
     }
   }
-  
+
   .fade_in {
     animation-name: fade_in;
     animation-duration: 8s;
     animation-direction: infinite;
     animation-fill-mode: both;
   }
-  
+
   @keyframes rotation {
     from {
       rotate: 0deg;
@@ -177,7 +194,7 @@ footer {
       rotate: 360deg;
     }
   }
-  
+
   .rotation {
     animation-name: rotation;
     animation-duration: 5s;
@@ -199,7 +216,7 @@ footer {
     animation-direction: alternate;
     animation-iteration-count: infinite;
   }
-  
+
   @keyframes overshoot {
     from {
       translate: -100% 0;
@@ -208,7 +225,7 @@ footer {
       translate: 300% 0;
     }
   }
-  
+
   .overshoot {
     animation-name: overshoot;
     animation-duration: 4s;
@@ -224,12 +241,12 @@ footer {
     margin-top: 5%;
     margin-left: 5%;
   }
-  
-  #logoLille{
+
+  #logoLille {
     max-width: 50px;
   }
 
-  #burgerPos{
+  #burgerPos {
     position: relative;
     margin-top: 8%;
     margin-left: 70%;
@@ -311,15 +328,15 @@ footer {
   /* kontakt */
   #postIt {
     display: none;
-    }
+  }
   #kommentar {
     display: none;
-   }
+  }
 }
 
 /* ------------------ MOBIL -------------------- */
 @media screen and (max-width: 600px) {
-  #grid1_1{
+  #grid1_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -329,12 +346,12 @@ footer {
     margin-top: 5%;
     margin-left: 5%;
   }
-  
-  #logoLille{
+
+  #logoLille {
     max-width: 50px;
   }
 
-  #burgerPos{
+  #burgerPos {
     position: relative;
     margin-top: 8%;
     margin-left: 70%;

@@ -7,9 +7,9 @@ body {
   /* billeder */
   #postIt {
     position: relative;
-    margin-top: -2%;
+    margin-top: -4%;
     margin-left: 30%;
-    rotate: -20deg;
+    rotate: -15deg;
   }
   #postIt2 {
     max-width: 100%;
@@ -20,7 +20,7 @@ body {
   /* tekst */
   h1 {
     position: relative;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-bottom: 0;
     left: 5%;
   }
