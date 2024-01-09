@@ -99,22 +99,26 @@ a:active {
     position: relative;
     margin-top: -3%;
     margin-left: 20%;
+    line-height: 2em;
   }
   #tekstPos2 {
     position: relative;
     margin-top: 4%;
     margin-left: 20%;
+    line-height: 2em;
   }
   #tekstPos3 {
     position: relative;
     margin-top: 0;
     margin-left: 24%;
     text-align: center;
+    line-height: 2em;
   }
   #tekstPos4 {
     position: relative;
     margin-top: 2%;
     margin-left: 8%;
+    line-height: 2em;
   }
 
   .note {
@@ -130,7 +134,7 @@ a:active {
   }
   #notePos2 {
     position: absolute;
-    top: 39.3%;
+    top: 38%;
     left: 35%;
   }
   #notePos3 {
@@ -210,7 +214,7 @@ a:active {
   }
   #pil2 {
     position: absolute;
-    top: 40%;
+    top: 39%;
     left: 45%;
     rotate: 30deg;
   }

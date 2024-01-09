@@ -89,11 +89,10 @@ a:active {
 
   .lineLength {
     max-width: 400px;
-   line-height: 2em;
   }
   .lineLength1 {
     max-width: 800px;
-    line-height: 2em;
+  
    
   }
 
@@ -101,17 +100,20 @@ a:active {
     position: relative;
     margin-top: 0;
     margin-left: 30%;
+    line-height: 2em;
   }
   #tekstPos2 {
     position: relative;
-    margin-top: -5%;
+    margin-top: -4%;
     margin-left: 25%;
+    line-height: 2em;
   }
   #tekstPos3 {
     position: relative;
     margin-top: 0;
     margin-left: 24%;
     text-align: center;
+    line-height: 2em;
   }
 
   .note {
@@ -122,7 +124,7 @@ a:active {
 
   #notePos {
     position: absolute;
-    top: 21.5%;
+    top:18%;
     left: 59%;
   }
 
@@ -133,12 +135,12 @@ a:active {
   }
   #notePos3 {
     position: absolute;
-    top: 59.5%;
+    top: 63.5%;
     left: 38%;
   }
   #notePos4 {
     position: absolute;
-    top: 85%;
+    top: 82%;
     left: 6%;
   }
 
@@ -146,14 +148,14 @@ a:active {
   #blomst {
     max-width: 340px;
     position: absolute;
-    top: 12%;
+    top: 11%;
     left: 40%;
     rotate: 20deg;
   }
 
   #pil {
     position: absolute;
-    top: 23%;
+    top: 20%;
     left: 55%;
     rotate: 290deg;
   }
@@ -165,13 +167,13 @@ a:active {
   }
   #pil3 {
     position: absolute;
-    top: 58%;
+    top: 62.5%;
     left: 53%;
     rotate: -47deg;
   }
   #pil4 {
     position: absolute;
-    top: 86.5%;
+    top: 83.5%;
     left: 15%;
   }
 
@@ -180,7 +182,7 @@ a:active {
   }
   #videoPos {
     position: relative;
-    margin-top: 43%;
+    margin-top: 14%;
     margin-left: 10%;
     max-width: 790px;
   }

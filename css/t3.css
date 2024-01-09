@@ -194,6 +194,23 @@ a:active {
     left: -14%;
     rotate: -60deg;
   }
+  #linket1 {
+    position: absolute;
+    top:90%;
+    left: 50%;
+    rotate: 75deg;
+  }
+  #nål1 {
+    max-width: 120px;
+  }
+  #linkNote1 {
+    font-size: 16px;
+    text-align: center;
+    position: absolute;
+    top: 38%;
+    left: -10%;
+    rotate: -60deg;
+  }
 }
 /* ------------------ MOBIL -------------------- */
 @media screen and (max-width: 600px) {
@@ -353,7 +370,7 @@ a:active {
   }
   #linket {
     position: absolute;
-    top: 85%;
+    top: 78%;
     left: 5%;
     rotate: -20deg;
   }
@@ -361,6 +378,24 @@ a:active {
     max-width: 70px;
   }
   #linkNote {
+    font-size: 10px;
+    text-align: center;
+    position: absolute;
+    top: 36%;
+    left: -14%;
+    rotate: -60deg;
+  }
+
+  #linket1 {
+    position: absolute;
+    top:88%;
+    left: 5%;
+    rotate: -20deg;
+  }
+  #nål1 {
+    max-width: 120px;
+  }
+  #linkNote1 {
     font-size: 10px;
     text-align: center;
     position: absolute;
