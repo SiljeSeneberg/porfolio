@@ -38,28 +38,28 @@ body {
   #kommentar {
     font-size: 32px;
     position: absolute;
-    top: 47%;
-    left: 19%;
+    top: 43%;
+    left: 18%;
     rotate: -15deg;
   }
   #email {
     position: absolute;
-    top: 38%;
+    top: 35%;
     left: 57%;
   }
   #email1 {
     position: absolute;
-    top: 45%;
+    top: 41%;
     left: 60%;
   }
   #telefon {
     position: absolute;
-    top: 58%;
+    top: 55%;
     left: 57%;
   }
   #telefon1 {
     position: absolute;
-    top: 65%;
+    top: 61%;
     left: 60%;
   }
 }
